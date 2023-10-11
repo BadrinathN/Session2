@@ -1,0 +1,13 @@
+
+Window Object: It is the top most object and the outermost element of the object hierarchy.
+               The window object represents a window/tab containing a DOM document.
+
+
+Document Object: When a web page is loaded, the browser creates a Document Object Model of 
+                 the page. The document object represents the whole html document as a tree 
+                 of Objects(HTML, HEAD, BODY, and other HTML tags). It is the root element
+                 that represents the html document.document object is property of window 
+                 object that points to the DOM document loaded in that window.
+
+Few method names are same in both objects but with different behavior.
+window.open() opens a new tab or window and document.open() creates a blank document within the window.
